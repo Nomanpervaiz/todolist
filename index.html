@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Seymour+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/3e83da74ef.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Main Div -->
+    <div class="section container-xxl">
+      <div class="main-box reddit-sans">
+        <div class="heading row">
+          <h4 class="reddit-sans">Todo-List</h4>
+        </div>
+        <div class="list row">
+<ul id="list" class="ul-main scroll"></ul>
+          <div class="input row">
+            <input
+              type="text"
+              id="input"
+              class="add-task my-input"
+              placeholder="Type your task..."
+              onkeydown="addItemEnter(event)"
+            />
+            <button class="main-btn" onclick="addItem()">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+            <button class="main-btn" onclick="deleteAll()">
+              <i class="fa-solid fa-trash-can"></i>
+
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
