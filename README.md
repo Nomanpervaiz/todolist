@@ -1,1 +1,1 @@
-todolist-bynomanpervaiz.netlify.app
+https://todolist-bynomanpervaiz.netlify.app
