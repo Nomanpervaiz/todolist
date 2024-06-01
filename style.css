@@ -31,7 +31,7 @@ body {
   width: 101%;
 }
 .heading > h4 {
-  height: 100px;
+    height: 100px;
   margin: auto;
   color: white;
   background:  rgb(96, 126, 187);
@@ -86,6 +86,7 @@ background: linear-gradient(0deg,  rgb(90, 117, 172) 0%, rgb(70, 77, 97) 100%);
   background:  rgb(96, 126, 187);
   background: linear-gradient(0deg,  rgb(90, 117, 172) 0%, rgb(70, 77, 97) 100%);
 }
+
 .scroll::-webkit-scrollbar {
   width: 10px;
 }
@@ -144,4 +145,8 @@ background:  rgb(96, 126, 187);
   box-shadow: none;
   border: none;
   border-bottom:2px solid rgb(211, 211, 211) ;
+}
+
+.icon-head{
+  margin-right: 20px ;
 }
