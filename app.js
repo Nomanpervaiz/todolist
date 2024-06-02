@@ -61,8 +61,6 @@ function editItem(event) {
   let inputField = event.target.parentElement.childNodes[1]
   if (inputField.disabled) {
     inputField.disabled = false;
-    event.target.innerText = 
-   'save'
   } else {
     inputField.disabled = true;
     
